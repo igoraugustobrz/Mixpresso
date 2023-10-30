@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* GetStarted */
+  .content {
+    @apply absolute bottom-0 left-0 w-screen z-10;
+  }
+
+  .content-inner {
+    @apply flex flex-col justify-center h-full;
+  }
+
+  .main-text {
+    @apply max-w-[80%] mx-auto font-sora text-white text-center font-semibold text-[24px] pt-5;
+  }
+
+  .sub-text {
+    @apply max-w-[80%] mx-auto font-sora text-center text-sm text-[#A9A9A9] py-4;
+  }
+}
