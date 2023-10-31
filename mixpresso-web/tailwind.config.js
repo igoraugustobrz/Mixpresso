@@ -1,6 +1,7 @@
 /* prettier-ignore */
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'media',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'reddish-brown-400': '#C67C4E',
+      },
       fontFamily: {
         'sora': ['Sora', 'Arial', 'Times New Roman'],
       },

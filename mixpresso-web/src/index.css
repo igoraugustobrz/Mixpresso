@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 @layer components {
+  /* Home */
+  .container {
+    @apply max-w-[300px] sm:max-w-xl md:max-w-[840px] lg:max-w-[940px] xl:max-w-[1040px] 2xl:max-w-[1040px];
+  }
+
   /* GetStarted */
   .content {
-    @apply absolute bottom-0 left-0 w-screen z-10;
+    @apply absolute -bottom-0 left-0 w-screen z-10;
   }
 
   .content-inner {
@@ -18,5 +23,9 @@
 
   .sub-text {
     @apply max-w-[80%] mx-auto font-sora text-center text-sm text-[#A9A9A9] py-4;
+  }
+
+  img {
+    @apply w-full h-full;
   }
 }

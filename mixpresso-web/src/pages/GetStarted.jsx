@@ -10,7 +10,7 @@ const GetStarted = () => {
             <div className='relative w-full h-screen sm:h-full'>
                 <div className='block sm:hidden'>
                     <img
-                        className='w-full h-90vh'
+                        className='w-full h-[90vh]'
                         src={homeMobile}
                         alt="Home"
                     />
@@ -39,7 +39,7 @@ const GetStarted = () => {
                             <Button
                                 size="sm"
                                 className='mx-auto px-10 sm:px-20 sm:text-9xl sm:py-2'
-                                color="warning"
+                                color='warning'
                             >
                                 Vamos lá!
                             </Button>
