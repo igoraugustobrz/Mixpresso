@@ -1,7 +1,8 @@
 'use client';
 
+import logo from '../../assets/global/logo.png';
 import { Footer } from "flowbite-react";
-import { BsLinkedin, BsInstagram, BsDiscord } from 'react-icons/bs';
+import { BsLinkedin, BsInstagram } from 'react-icons/bs';
 
 const FooterDefault = () => {
     return (
@@ -11,12 +12,12 @@ const FooterDefault = () => {
                 <div className="container mx-auto">
                     <div className="w-full">
                         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-                            <div>
-                                <Footer.Brand
-                                    href="#"
-                                    name="Mixpresso"
-                                />
-                            </div>
+                            <Footer.Brand
+                                href="/home"
+                                src={logo}
+                                alt="Mixpresso Logo"
+                                name="Mixpresso"
+                            />
                             <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
                                 <div>
                                     <Footer.Title title="Developed" />
@@ -75,7 +76,7 @@ const FooterDefault = () => {
                         <div className="w-full sm:flex sm:items-center sm:justify-between">
                             <Footer.Copyright
                                 by="Mixpresso"
-                                href="#"
+                                href="/home"
                                 year={2023}
 
                             />
