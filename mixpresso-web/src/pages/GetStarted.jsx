@@ -38,7 +38,7 @@ const GetStarted = () => {
                         >
                             <Button
                                 size="sm"
-                                className='mx-auto px-10 sm:px-20 sm:text-9xl sm:py-2'
+                                className='mx-auto px-10 sm:px-20 sm:py-2'
                                 color='warning'
                             >
                                 Vamos lá!

@@ -1,0 +1,23 @@
+/* Classe para a animação de entrada (SlideIn) */
+.slide-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-enter-active {
+  transform: translateX(0%);
+  opacity: 1;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+/* Classe para a animação de saída (SlideOut) */
+.slide-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
