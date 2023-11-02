@@ -1,8 +1,6 @@
 'use client';
-
 import logo from '../../assets/global/logo.png';
 import { Footer } from "flowbite-react";
-import { BsLinkedin, BsInstagram } from 'react-icons/bs';
 
 const FooterDefault = () => {
     return (
@@ -43,6 +41,13 @@ const FooterDefault = () => {
                                     <Footer.Title title="Follow us" />
                                     <Footer.LinkGroup col>
                                         <Footer.Link
+                                            href="https://iaugusto.vercel.app/"
+                                            target="_blank"
+                                            className="hover:text-yellow-500 dark:hover:text-yellow-500"
+                                        >
+                                            Portfólio
+                                        </Footer.Link>
+                                        <Footer.Link
                                             href="https://github.com/igoraugustobrz"
                                             target="_blank"
                                             className="hover:text-yellow-500 dark:hover:text-yellow-500"
@@ -50,11 +55,11 @@ const FooterDefault = () => {
                                             Github
                                         </Footer.Link>
                                         <Footer.Link
-                                            href="https://iaugusto.vercel.app/"
+                                            href="https://www.linkedin.com/in/igorbrz/"
                                             target="_blank"
                                             className="hover:text-yellow-500 dark:hover:text-yellow-500"
                                         >
-                                            Portfólio
+                                            LinkedIn
                                         </Footer.Link>
                                     </Footer.LinkGroup>
                                 </div>
@@ -80,18 +85,6 @@ const FooterDefault = () => {
                                 year={2023}
 
                             />
-                            <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                                <Footer.Icon
-                                    href="https://www.linkedin.com/in/igorbrz/"
-                                    target="_blank"
-                                    icon={BsLinkedin}
-                                />
-                                <Footer.Icon
-                                    href="https://www.instagram.com/iaugusto__/"
-                                    target="_blank"
-                                    icon={BsInstagram}
-                                />
-                            </div>
                         </div>
                     </div>
                 </div >

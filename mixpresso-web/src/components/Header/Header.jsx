@@ -11,16 +11,18 @@ const Header = () => {
     return (
         <>
             <header className="container mx-auto py-5">
-                <div className="flex justify-between">
-                    <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
-                    <div>sa</div>
-                    <div>ds</div>
-                </div>
-                <SidebarDefault
-                    action={() => setIsMenuOppen(!isMenuOppen)}
-                    startAnimation={isMenuOppen}
-                    nodeRef={nodeRef}
-                />
+                <nav>
+                    <div className="flex justify-between">
+                        <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
+                        <div>sa</div>
+                        <div>ds</div>
+                    </div>
+                    <SidebarDefault
+                        action={() => setIsMenuOppen(!isMenuOppen)}
+                        startAnimation={isMenuOppen}
+                        nodeRef={nodeRef}
+                    />
+                </nav>
             </header >
             <hr />
         </>

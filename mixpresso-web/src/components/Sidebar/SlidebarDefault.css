@@ -1,3 +1,5 @@
+/* ANIMAÇÃO DA ABERTURA/FECHAMENTO DO MENU - CSSTransition */
+
 /* Classe para a animação de entrada (SlideIn) */
 .slide-enter {
   transform: translateX(-100%);

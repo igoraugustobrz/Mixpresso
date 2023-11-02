@@ -5,7 +5,7 @@
 @layer components {
   /* Home */
   .container {
-    @apply max-w-[300px] sm:max-w-xl md:max-w-[840px] lg:max-w-[940px] xl:max-w-[1040px] 2xl:max-w-[1300px];
+    @apply max-w-[300px] sm:max-w-xl md:max-w-[720px] lg:max-w-[940px] xl:max-w-[1040px] 2xl:max-w-[1300px];
   }
 
   /* Header */
@@ -28,5 +28,10 @@
 
   .sub-text {
     @apply max-w-[80%] mx-auto font-sora text-center text-sm text-[#A9A9A9] py-4;
+  }
+
+  /* Sidebar */
+  .container-sidebar {
+    @apply absolute top-0 left-0 h-full w-full sm:w-[20rem] z-20 rounded-lg;
   }
 }
