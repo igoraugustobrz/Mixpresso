@@ -27,7 +27,7 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                 unmountOnExit
             >
                 <div ref={nodeRef} className='container-sidebar'>
-                    <Sidebar className='w-full'>
+                    <Sidebar className='w-full darkTheme'>
                         <div className="flex flex-col items-end p-5">
                             <BsXLg
                                 className="text-2xl dark:text-white cursor-pointer"

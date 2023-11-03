@@ -10,7 +10,7 @@ const Menu = ({ action }) => {
                     <span className="w-[18px] menu-lines"></span>
                     <span className="w-[14px] menu-lines"></span>
                 </div>
-                <h1 className="text-2xl font-semibold select-none">Mixpresso</h1>
+                <h1 className="text-2xl dark:text-white font-semibold select-none">Mixpresso</h1>
             </div>
 
         </>

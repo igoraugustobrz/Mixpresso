@@ -10,7 +10,7 @@
 
   /* Header */
   .menu-lines {
-    @apply border-black border-[1.5px] rounded-full;
+    @apply border-black dark:border-white border-[1.5px] rounded-full;
   }
 
   /* GetStarted */
@@ -33,5 +33,9 @@
   /* Sidebar */
   .container-sidebar {
     @apply absolute top-0 left-0 h-full w-full sm:w-[20rem] z-20 rounded-lg;
+  }
+
+  .darkTheme > div {
+    @apply dark:bg-black;
   }
 }

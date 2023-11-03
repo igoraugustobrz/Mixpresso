@@ -12,14 +12,14 @@ const Header = () => {
 
     return (
         <>
-            <header className="container mx-auto py-5">
-                <nav>
+            <header className="dark:bg-black">
+                <nav className="container mx-auto py-5">
                     <div className="flex justify-between">
                         <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
                         <div>sa</div>
                         <div className="flex items-center gap-x-4">
                             <HiShoppingCart
-                                className=" text-xl text-gray-400 cursor-pointer"
+                                className="text-xl hover:text-gray-600 text-gray-700/75 dark:text-gray-400 cursor-pointer"
                             />
                             <DarkModeToggle />
                         </div>
