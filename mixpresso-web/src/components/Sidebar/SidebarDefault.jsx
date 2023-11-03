@@ -7,6 +7,7 @@ import {
     HiOutlineDocumentReport,
     HiInformationCircle,
     HiArrowSmRight,
+    HiShoppingCart,
     HiOutlineHome,
     HiShoppingBag,
     HiTable,
@@ -50,6 +51,9 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                                 </Link>
                                 <Sidebar.Item icon={HiShoppingBag}>
                                     Produtos
+                                </Sidebar.Item>
+                                <Sidebar.Item icon={HiShoppingCart}>
+                                    Carrinho
                                 </Sidebar.Item>
                                 <Sidebar.Item icon={HiHeart}>
                                     Favoritos

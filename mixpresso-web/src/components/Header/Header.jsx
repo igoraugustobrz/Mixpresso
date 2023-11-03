@@ -2,7 +2,6 @@ import Menu from "../Common/Menu";
 import { useState, useRef } from "react";
 import SidebarDefault from "../Sidebar/SidebarDefault";
 import DarkModeToggle from "../Common/DarkModeToggle";
-import { HiShoppingCart } from 'react-icons/hi'
 
 const Header = () => {
 
@@ -18,9 +17,6 @@ const Header = () => {
                         <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
                         <div>sa</div>
                         <div className="flex items-center gap-x-4">
-                            <HiShoppingCart
-                                className="text-xl hover:text-gray-600 text-gray-700/75 dark:text-gray-400 cursor-pointer"
-                            />
                             <DarkModeToggle />
                         </div>
                     </div>

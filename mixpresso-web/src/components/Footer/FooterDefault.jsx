@@ -48,18 +48,18 @@ const FooterDefault = () => {
                                             Portfólio
                                         </Footer.Link>
                                         <Footer.Link
-                                            href="https://github.com/igoraugustobrz"
-                                            target="_blank"
-                                            className="hover:text-yellow-500 dark:hover:text-yellow-500"
-                                        >
-                                            Github
-                                        </Footer.Link>
-                                        <Footer.Link
                                             href="https://www.linkedin.com/in/igorbrz/"
                                             target="_blank"
                                             className="hover:text-yellow-500 dark:hover:text-yellow-500"
                                         >
                                             LinkedIn
+                                        </Footer.Link>
+                                        <Footer.Link
+                                            href="https://github.com/igoraugustobrz"
+                                            target="_blank"
+                                            className="hover:text-yellow-500 dark:hover:text-yellow-500"
+                                        >
+                                            Github
                                         </Footer.Link>
                                     </Footer.LinkGroup>
                                 </div>
