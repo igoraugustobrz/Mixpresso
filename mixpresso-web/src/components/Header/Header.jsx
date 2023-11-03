@@ -1,6 +1,8 @@
-import Menu from "../Common/Menu/Menu";
+import Menu from "../Common/Menu";
 import { useState, useRef } from "react";
 import SidebarDefault from "../Sidebar/SidebarDefault";
+import DarkModeToggle from "../Common/DarkModeToggle";
+import { HiShoppingCart } from 'react-icons/hi'
 
 const Header = () => {
 
@@ -15,7 +17,12 @@ const Header = () => {
                     <div className="flex justify-between">
                         <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
                         <div>sa</div>
-                        <div>ds</div>
+                        <div className="flex items-center gap-x-4">
+                            <HiShoppingCart
+                                className=" text-xl text-gray-400 cursor-pointer"
+                            />
+                            <DarkModeToggle />
+                        </div>
                     </div>
                     <SidebarDefault
                         action={() => setIsMenuOppen(!isMenuOppen)}

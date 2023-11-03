@@ -16,6 +16,7 @@ import logo from '../../assets/global/logo.png';
 import './SlidebarDefault.css';
 
 const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
+
     return (
         <>
             <CSSTransition
@@ -26,7 +27,7 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                 unmountOnExit
             >
                 <div ref={nodeRef} className='container-sidebar'>
-                    <Sidebar className='w-full' >
+                    <Sidebar className='w-full'>
                         <div className="flex flex-col items-end p-5">
                             <BsXLg
                                 className="text-2xl dark:text-white cursor-pointer"
@@ -69,8 +70,8 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                                     Sobre
                                 </Sidebar.Item>
                             </Sidebar.ItemGroup>
-                        </Sidebar.Items>
-                    </Sidebar>
+                        </Sidebar.Items >
+                    </Sidebar >
                 </div >
             </CSSTransition >
         </>
