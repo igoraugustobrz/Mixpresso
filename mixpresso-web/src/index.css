@@ -2,40 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .scroll::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .darkTheme > div {
+    @apply dark:bg-black;
+  }
+}
+
 @layer components {
   /* Home */
   .container {
     @apply max-w-[300px] sm:max-w-xl md:max-w-[720px] lg:max-w-[940px] xl:max-w-[1040px] 2xl:max-w-[1300px];
   }
 
-  /* Header */
-  .menu-lines {
-    @apply border-black dark:border-white border-[1.5px] rounded-full;
-  }
-
   /* GetStarted */
-  .content {
-    @apply absolute -bottom-0 left-0 w-screen z-10;
-  }
-
-  .content-inner {
-    @apply flex flex-col justify-center h-full;
-  }
-
-  .main-text {
+  .text-get-started {
     @apply max-w-[80%] sm:max-w-[400px] mx-auto font-sora text-white text-center font-semibold text-[24px] sm:text-[30px] pt-5;
   }
 
-  .sub-text {
+  .sub-text-get-started {
     @apply max-w-[80%] mx-auto font-sora text-center text-sm text-[#A9A9A9] py-4;
-  }
-
-  /* Sidebar */
-  .container-sidebar {
-    @apply absolute top-0 left-0 h-full w-full sm:w-[20rem] z-20 rounded-lg;
-  }
-
-  .darkTheme > div {
-    @apply dark:bg-black;
   }
 }

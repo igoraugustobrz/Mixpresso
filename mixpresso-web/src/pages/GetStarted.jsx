@@ -26,12 +26,12 @@ const GetStarted = () => {
 
             </div>
 
-            <div className='content'>
+            <div className='absolute -bottom-0 left-0 w-screen z-10'>
                 <div className='h-[40vh] bg-black-white'>
-                    <div className='content-inner'>
-                        <p className='main-text'>Café tão bom, que seu paladar vai amar.</p>
+                    <div className='flex flex-col justify-center h-full'>
+                        <p className='text-get-started'>Café tão bom, que seu paladar vai amar.</p>
 
-                        <p className='sub-text'>O melhor grão, a torra mais fina, o sabor poderoso</p>
+                        <p className='sub-text-get-started'>O melhor grão, a torra mais fina, o sabor poderoso</p>
 
                         <Link
                             to='/home'

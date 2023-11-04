@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
         'reddish-brown-400': '#C67C4E',
+        'brown-900': '#31160b',
       },
       fontFamily: {
         'sora': ['Sora', 'Arial', 'Times New Roman'],

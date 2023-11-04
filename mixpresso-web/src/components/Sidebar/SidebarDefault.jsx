@@ -27,7 +27,7 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                 classNames={"slide"}
                 unmountOnExit
             >
-                <div ref={nodeRef} className='container-sidebar'>
+                <div ref={nodeRef} className='absolute top-0 left-0 h-full w-full sm:w-[20rem] z-20 rounded-lg'>
                     <Sidebar className='w-full darkTheme'>
                         <div className="flex flex-col items-end p-5">
                             <BsXLg
