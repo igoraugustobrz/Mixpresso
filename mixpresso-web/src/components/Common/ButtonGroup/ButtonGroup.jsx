@@ -1,12 +1,19 @@
+import { useEffect } from "react";
 import { Button } from "flowbite-react";
 
 const Options = () => {
-
+    useEffect(() => {
+        const scrollContainer = document.querySelector(".scroll");
+        scrollContainer.scrollTo({
+            left: (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2,
+            behavior: "smooth"
+        });
+    }, []);
 
     return (
         <>
             <div className="container mx-auto mb-10">
-                <div className="flex md:justify-center items-center gap-x-5 overflow-x-scroll scroll px-0.5 py-2">
+                <div className="flex md:justify-center items-center gap-x-5 overflow-x-scroll scroll px-0.5 py-2 snap-x snap-mandatory">
                     <Button
                         size='sm'
                         className="bg-brown-900/90 dark:bg-brown-900/90 enabled:hover:bg-brown-900/80 dark:enabled:hover:bg-brown-900/80 focus:ring-0 active:scale-[1.04] transition duration-200 whitespace-nowrap"
@@ -64,7 +71,7 @@ const Options = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
 export default Options;
