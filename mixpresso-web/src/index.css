@@ -7,8 +7,12 @@
     @apply hidden;
   }
 
-  .darkTheme > div {
+  .dark-theme-sidebar > div {
     @apply dark:bg-black;
+  }
+
+  .dark-theme-input > div > input {
+    @apply dark:bg-black focus:border-black focus:ring-black dark:focus:ring-white dark:focus:border-white;
   }
 }
 

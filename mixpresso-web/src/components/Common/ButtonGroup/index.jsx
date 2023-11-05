@@ -1,14 +1,6 @@
-import { useEffect } from "react";
 import { Button } from "flowbite-react";
 
 const Options = () => {
-    useEffect(() => {
-        const scrollContainer = document.querySelector(".scroll");
-        scrollContainer.scrollTo({
-            left: (scrollContainer.scrollWidth - scrollContainer.clientWidth) / 2,
-            behavior: "smooth"
-        });
-    }, []);
 
     return (
         <>

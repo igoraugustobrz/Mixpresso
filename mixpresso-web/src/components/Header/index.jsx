@@ -1,7 +1,8 @@
 import Menu from "../Common/Menu";
 import { useState, useRef } from "react";
-import SidebarDefault from "../Sidebar/SidebarDefault";
+import SidebarDefault from "../Sidebar";
 import DarkModeToggle from "../Common/DarkModeToggle";
+import SearchInput from "../Form/SearchInput";
 
 const Header = () => {
 
@@ -15,7 +16,7 @@ const Header = () => {
                 <nav className="container mx-auto py-5">
                     <div className="flex justify-between">
                         <Menu action={() => setIsMenuOppen(!isMenuOppen)} />
-                        <div>sa</div>
+                        <SearchInput />
                         <div className="flex items-center gap-x-4">
                             <DarkModeToggle />
                         </div>

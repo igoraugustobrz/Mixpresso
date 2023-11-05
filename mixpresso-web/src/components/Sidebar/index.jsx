@@ -14,7 +14,7 @@ import {
     HiHeart
 } from 'react-icons/hi';
 import logo from '../../assets/global/logo.png';
-import './SlidebarDefault.css';
+import './index.css';
 
 const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
 
@@ -28,7 +28,7 @@ const SidebarDefault = ({ action, startAnimation, nodeRef }) => {
                 unmountOnExit
             >
                 <div ref={nodeRef} className='absolute top-0 left-0 h-full w-full sm:w-[20rem] z-20 rounded-lg'>
-                    <Sidebar className='w-full darkTheme'>
+                    <Sidebar className='w-full dark-theme-sidebar'>
                         <div className="flex flex-col items-end p-5">
                             <BsXLg
                                 className="text-2xl dark:text-white cursor-pointer"

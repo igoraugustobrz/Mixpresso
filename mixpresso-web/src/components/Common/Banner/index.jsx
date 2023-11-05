@@ -1,4 +1,4 @@
-import banner from '../../assets/global/desktop.jpg'
+import banner from '../../../assets/global/desktop.jpg'
 
 const Banner = () => {
     return (
