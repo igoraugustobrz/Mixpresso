@@ -14,13 +14,22 @@ Projeto em andamento.
 
 ## Pré-requisitos
 
-### Linguagens e Banco de Dados
+### Tecnologias
 
 - React.js (v18 ou superior);
 - Tailwind CSS (v3.3.3 ou superior);
-- Flowbite Library.
+- Flowbite Library;
+- Java (v17.0.5 ou superior);
+- Spring Boot (v3.1.5 ou superior).
 
 ### Dependências
+
+- Spring Boot DevTools;
+- Spring Data JPA;
+- Bean Validation.
+- MySQL Driver;
+- Spring Web;
+- Lombok;
 
 ## Instalando
 
