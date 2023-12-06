@@ -20,7 +20,7 @@ public class Adress {
     private Long id_endereco;
 
     @JoinColumn(name = "id_usuario")
-    @ManyToOne
+    @OneToOne
     private User id_usuario;
 
     private String rua;
