@@ -1,11 +1,13 @@
-package br.com.mixpresso.mixpressoapi.domain.usuario;
+package br.com.mixpresso.mixpressoapi.domain.user;
 
+import br.com.mixpresso.mixpressoapi.domain.adress.AdressDTO;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import org.hibernate.validator.constraints.br.CPF;
 
-public record UserDTO(
+public record UserRegisterDTO(
         @Pattern(regexp = "^[A-Z]+(.)*", message = "Campo nome deve iniciar com letra maiúscula")
         @NotBlank(message = "O campo nome não pode estar em branco")
         String nome,
@@ -14,7 +16,11 @@ public record UserDTO(
         String email,
         @CPF(message = "Formato de CPF inválido")
         @NotBlank(message = "O campo CPF não pode estar em branco")
-        String cpf
+        String cpf,
+        @NotBlank(message = "Dados do endereço são obrigatórios")
+        @Valid
+        AdressDTO endereco
+
 ) {
 
 

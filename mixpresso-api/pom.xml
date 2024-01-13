@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.mixpresso</groupId>
 	<artifactId>mixpresso-api</artifactId>
-	<version>1.1</version>
+	<version>1.2</version>
 	<name>mixpresso-api</name>
 	<description>API da aplicação Mixpresso.</description>
 	<properties>
