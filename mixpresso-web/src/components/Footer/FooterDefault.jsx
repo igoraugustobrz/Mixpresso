@@ -21,17 +21,17 @@ const FooterDefault = () => {
                                     <Footer.Title title="Developed" />
                                     <Footer.LinkGroup col>
                                         <Footer.Link
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             React.js
                                         </Footer.Link>
                                         <Footer.Link
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             Spring Boot
                                         </Footer.Link>
                                         <Footer.Link
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             MySQL
                                         </Footer.Link>
@@ -43,21 +43,21 @@ const FooterDefault = () => {
                                         <Footer.Link
                                             href="https://iaugusto.vercel.app/"
                                             target="_blank"
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             Portfólio
                                         </Footer.Link>
                                         <Footer.Link
                                             href="https://www.linkedin.com/in/igorbrz/"
                                             target="_blank"
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             LinkedIn
                                         </Footer.Link>
                                         <Footer.Link
                                             href="https://github.com/igoraugustobrz"
                                             target="_blank"
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             Github
                                         </Footer.Link>
@@ -69,7 +69,7 @@ const FooterDefault = () => {
                                         <Footer.Link
                                             href="https://github.com/igoraugustobrz/Mixpresso"
                                             target="_blank"
-                                            className="hover:text-brown-900 dark:hover:text-brown-900/10"
+                                            className="hover:text-black dark:hover:text-gray-400"
                                         >
                                             Terms & Conditions
                                         </Footer.Link>
